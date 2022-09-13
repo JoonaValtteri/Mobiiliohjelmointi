@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button, TextInput, Alert } from 'react-native';
 
 
 export default function App() {
-
+ 
   const [arvaus, setArvaus] = React.useState(0);
   const [message, setMessage] = React.useState("Guess number between 1 - 100");
   const [result, setResult] = React.useState(Math.floor(Math.random() * 100) + 1);
