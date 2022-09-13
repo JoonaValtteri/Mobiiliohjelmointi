@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button, TextInput, FlatList } from 'react-nativ
 
 
 export default function App() {
-
+ 
   const [numero1, setNumero1] = React.useState(0);
   const [numero2, setNumero2] = React.useState(0);
   const [result, setResult] = React.useState();
